@@ -40,6 +40,11 @@ section {
     color: #3F0D12;
 }
 
+#resume iframe {
+    display: block;
+    margin: 0 auto;
+}
+
 #contact p {
     margin: 10px 0;
     font-size: 18px;
