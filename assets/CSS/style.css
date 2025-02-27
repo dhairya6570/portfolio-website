@@ -28,6 +28,12 @@ nav ul li a {
     color: #F1F0CC;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+    transform: scale(1.05);
 }
 
 section {
@@ -140,12 +146,18 @@ section {
 }
 
 #contact a {
-    color: #A71D31;
+    display: inline-block;
+    background: #A71D31;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
     font-weight: bold;
+    transition: background 0.3s ease-in-out;
 }
 
 #contact a:hover {
-    text-decoration: underline;
+    background: #8D1427;
+    text-decoration: none;
 }
 
 a {
